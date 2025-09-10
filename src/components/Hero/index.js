@@ -1,1 +1,1 @@
-export { default } from './Hero.jsx';
+export * from './Hero';

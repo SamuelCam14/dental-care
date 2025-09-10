@@ -1,7 +1,7 @@
 export const WelcomeSection = () => {
   return (
     <section className="py-20 px-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-[1600px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
         {/* Image Section */}
         <div className="w-full h-[600px] rounded-3xl overflow-hidden shadow-lg">
           <img
