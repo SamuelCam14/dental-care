@@ -1,28 +1,53 @@
 export const ServicesSection = () => {
   return (
-    <section className="h-[700px] relative overflow-hidden rounded-3xl max-w-7xl mx-auto">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('https://images.pexels.com/photos/8272093/pexels-photo-8272093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black/30"></div> {/* Overlay */}
-      </div>
+    <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+      
 
-      {/* Content Card */}
-      <div className="absolute top-10 left-10 max-w-xl bg-white/95 pt-5 pr-5 rounded-tr-3xl">
-        <div className="bg-neutral-200 backdrop-blur-sm rounded-3xl p-8">
-          <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-gray-800">
-              Nuestros Servicios
-            </h2>
-            <p className="text-gray-600 leading-relaxed text-xl">
-              Ofrecemos una gama completa de servicios dentales para asegurar que tu sonrisa no solo se vea increíble, sino que también esté completamente sana. Desde limpiezas de rutina hasta procedimientos cosméticos avanzados, estamos aquí para ayudarte.
-            </p>
+      {/* Grid Container */}
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        {/* Card 1: Cuidado Básico Dental */}
+        <div className="relative bg-neutral-200/50 rounded-3xl p-8 text-neutral-800 overflow-hidden h-[420px] flex flex-col justify-between">
+          <div>
+            <h3 className="text-4xl font-bold">
+              Cuidado Básico Dental
+            </h3>
           </div>
+          <img 
+            src="https://res.cloudinary.com/duqzrruw2/image/upload/v1720731356/diresu/home/services/instrument-1_g8h2o4.png" 
+            alt="Herramienta dental" 
+            className="absolute bottom-0 right-0 h-3/4 w-auto object-contain opacity-40"
+            style={{ zIndex: 0 }}
+          />
+          <ul className="relative list-disc list-inside space-y-2 text-lg" style={{ zIndex: 1 }}>
+            <li>Limpieza y Pulido</li>
+            <li>Examen y Diagnóstico</li>
+            <li>Aplicación de Flúor</li>
+            <li>Selladores Dentales</li>
+          </ul>
         </div>
+
+        {/* Card 2: Odontología Cosmética */}
+        <div className="relative bg-neutral-200/50 rounded-3xl p-8 text-neutral-800 overflow-hidden h-[420px] flex flex-col justify-between">
+          <div>
+            <h3 className="text-4xl font-bold">
+              Odontología Cosmética
+            </h3>
+          </div>
+          <img 
+            src="https://res.cloudinary.com/duqzrruw2/image/upload/v1720731356/diresu/home/services/instrument-2_b5ff1p.png" 
+            alt="Herramienta dental cosmética" 
+            className="absolute bottom-0 right-0 h-3/4 w-auto object-contain opacity-40"
+            style={{ zIndex: 0 }}
+          />
+          <ul className="relative list-disc list-inside space-y-2 text-lg" style={{ zIndex: 1 }}>
+            <li>Blanqueamiento Dental</li>
+            <li>Carillas de Porcelana</li>
+            <li>Diseño de Sonrisa</li>
+            <li>Coronas Estéticas</li>
+          </ul>
+        </div>
+
       </div>
     </section>
   );
