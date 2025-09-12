@@ -55,8 +55,8 @@ export const ServicesSection = () => {
         {/* Other Services Grid */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {otherServices.map((service) => (
-            <div key={service} className="bg-neutral-200/30 backdrop-blur-sm rounded-2xl p-8 flex items-center justify-center h-32">
-              <h4 className="text-lg font-semibold text-neutral-800 text-center">{service}</h4>
+            <div key={service} className="bg-neutral-200/40 backdrop-blur-sm rounded-2xl p-8 flex items-center justify-center h-32">
+              <h4 className="text-2xl font-semibold text-neutral-500 text-center">{service}</h4>
             </div>
           ))}
         </div>
