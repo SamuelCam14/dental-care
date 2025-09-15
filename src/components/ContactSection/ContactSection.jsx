@@ -10,7 +10,7 @@ const ContactInfo = ({ icon, title, children }) => (
 
 export const ContactSection = () => {
   return (
-    <section className="py-20 px-10">
+    <section id="contact" className="py-20 px-10">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-12">
           Encuéntranos y Agenda tu Cita

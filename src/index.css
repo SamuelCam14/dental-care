@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Set Questrial as the default font family */
 * {
   font-family: 'Questrial', sans-serif;

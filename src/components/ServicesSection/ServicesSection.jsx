@@ -12,7 +12,7 @@ export const ServicesSection = () => {
   ];
 
   return (
-    <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+    <section id="services" className="relative py-20 px-4 sm:px-6 lg:px-8">
       <div className="relative max-w-7xl mx-auto">
         {/* Main Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

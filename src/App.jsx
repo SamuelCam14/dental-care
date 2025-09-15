@@ -1,4 +1,4 @@
-import { Hero, WelcomeSection, DoctorSection, ServicesSection, TestimonialsSection, ContactSection } from "./components";
+import { Hero, WelcomeSection, DoctorSection, ServicesSection, TestimonialsSection, ContactSection, Footer } from "./components";
 
 export const App = () => {
   return (
@@ -9,6 +9,7 @@ export const App = () => {
       <ServicesSection />
       <TestimonialsSection />
       <ContactSection />
+      <Footer />
     </>
   );
 };

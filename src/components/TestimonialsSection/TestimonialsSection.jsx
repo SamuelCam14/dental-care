@@ -31,7 +31,7 @@ export const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-10 bg-neutral-50">
+    <section id="testimonials" className="py-20 px-10 bg-neutral-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-12">
           Lo que dicen nuestros pacientes

@@ -2,7 +2,7 @@ import doctor from "../../assets/pictures/doctor.png";
 
 export const DoctorSection = () => {
   return (
-    <section className="py-20 px-10 bg-neutral-50">
+    <section id="doctors" className="py-20 px-10 bg-neutral-50">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
         {/* Content Section */}
         <div className="flex flex-col justify-center">

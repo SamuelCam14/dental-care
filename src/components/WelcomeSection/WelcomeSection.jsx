@@ -2,7 +2,7 @@ import consultorio from "../../assets/pictures/consultorio2.png";
 
 export const WelcomeSection = () => {
   return (
-    <section className="py-20 px-10">
+    <section id="welcome" className="py-20 px-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
         {/* Image Section */}
         <div className="w-full h-[600px] rounded-3xl overflow-hidden shadow-lg">

@@ -2,9 +2,10 @@ import React from "react";
 
 const Navigation = () => {
   const navItems = [
-    { href: "#inicio", label: "Inicio" },
-    { href: "#servicios", label: "servicios" },
-    { href: "#contacto", label: "contacto" },
+    { href: "#welcome", label: "Inicio" },
+    { href: "#services", label: "Servicios" },
+    { href: "#doctors", label: "Doctores" },
+    { href: "#contact", label: "Contacto" },
   ];
 
   return (
