@@ -5,7 +5,7 @@ const StarIcon = () => (
 );
 
 const TestimonialCard = ({ quote, author }) => (
-  <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col h-full">
+  <div className="bg-white p-8 rounded-2xl shadow-sm flex flex-col h-full">
     <div className="flex items-center mb-4">
       {[...Array(5)].map((_, i) => <StarIcon key={i} />)}
     </div>

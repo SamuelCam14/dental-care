@@ -15,7 +15,7 @@ export const ContactSection = () => {
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-12">
           Encuéntranos y Agenda tu Cita
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 bg-white p-10 rounded-3xl shadow-lg">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 bg-white p-10 rounded-3xl">
           {/* Contact Info */}
           <div className="flex flex-col justify-center space-y-8">
             <ContactInfo

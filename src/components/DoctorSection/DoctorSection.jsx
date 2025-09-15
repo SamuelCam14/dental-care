@@ -1,3 +1,5 @@
+import doctor from "../../assets/pictures/doctor.png";
+
 export const DoctorSection = () => {
   return (
     <section className="py-20 px-10 bg-neutral-50">
@@ -8,7 +10,7 @@ export const DoctorSection = () => {
             CONOCE A NUESTRO EXPERTO
           </span>
           <h2 className="text-4xl font-bold text-gray-800 mt-2 mb-4">
-            Dr. Alejandro Torres
+            Dr. Andrés Torres
           </h2>
           <p className="text-gray-600 leading-relaxed text-xl mb-6">
             Con más de 15 años de experiencia en odontología cosmética y reconstructiva, el Dr. Torres es un referente en el sector. Graduado con honores de la Universidad Nacional, ha dedicado su carrera a la creación de sonrisas saludables y estéticamente perfectas, combinando arte y ciencia en cada tratamiento.
@@ -23,8 +25,8 @@ export const DoctorSection = () => {
         {/* Image Section */}
         <div className="w-full h-[600px] rounded-3xl overflow-hidden shadow-lg">
           <img
-            src={"https://images.unsplash.com/photo-1622253692010-333f2da60710?q=80&w=2564&auto=format&fit=crop"}
-            alt="Foto del Dr. Alejandro Torres"
+            src={doctor}
+            alt="Foto del Dr. Andrés Torres"
             className="w-full h-full object-cover object-top"
           />
         </div>

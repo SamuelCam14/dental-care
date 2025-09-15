@@ -1,3 +1,5 @@
+import consultorio from "../../assets/pictures/consultorio2.png";
+
 export const WelcomeSection = () => {
   return (
     <section className="py-20 px-10">
@@ -5,7 +7,7 @@ export const WelcomeSection = () => {
         {/* Image Section */}
         <div className="w-full h-[600px] rounded-3xl overflow-hidden shadow-lg">
           <img
-            src={"https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+            src={consultorio}
             alt="Lobby de la clínica dental"
             className="w-full h-full object-cover"
           />
